@@ -10,3 +10,5 @@ channelRouter.get('/', listChannels);
 // Resultado esperado: Express debe ejecutar el Controller correcto cuando se solicita un canal por id.
 channelRouter.get('/:id', getChannel);
 // Prueba
+
+// prueba fallida

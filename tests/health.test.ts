@@ -16,7 +16,7 @@ afterAll(async () => {
 });
 
 test('GET /health returns ok', async () => {
-  await request(app).get('/health').expect(200, { status: 'ok' });
+  await request(app).get('/health').expect(200, { status: 'roto' });
 });
 
 test('GET /ready returns connected while MongoDB is connected', async () => {
